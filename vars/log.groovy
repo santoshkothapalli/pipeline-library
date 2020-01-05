@@ -1,3 +1,3 @@
 def info(message) {
-    echo "INFO WEBHOOK: ${message}"
+    echo "INFO : ${message}"
 }
