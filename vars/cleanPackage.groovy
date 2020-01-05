@@ -1,4 +1,4 @@
-def call(String command='sh') {
-    echo "INFO: Executing the maven clean with ${command}"
-    ${command} "mvn -Dmaven.test.failure.ignore=true clean package"
+def call(String command='') {
+    echo "INFO: Executing the maven clean with"
+    bat "${command}"
 }
